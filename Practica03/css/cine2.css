@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+}
+
+#premio{
+    background-color: black;
+    float: left;
+    width: 350px;
+    height: 570px;
+}
+
+#formulario1{
+    background-color: skyblue;
+    width: 500px;
+    float: left;
+}
+
+legend{
+    color: white;
+    background-color: blue;
+}
+
+#cajabotones{
+    text-align: center;
+}
+
+input[type=reset],input[type=submit] {
+    background-color: blue;
+    color: white;
+    border: solid 0.5px black;
+}
+
+

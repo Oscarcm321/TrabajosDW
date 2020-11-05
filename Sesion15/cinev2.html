@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cine2.css">
+
+    <title>Encuesta Cinematográfica</title>
+</head>
+<body>
+    <header><h1> Encuesta de cine: nominados al Oscar 2018</h2></header>
+    
+    <img id="premio" src="img/premio.png">
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+               
+                <fieldset id="datos_personales">
+                    <legend> Datos Personales</legend>
+                    <label for="nombre">Nombre</label> <br>
+                    <input type="text" name="nombre" id="nombre"> <br>
+
+                    <label for="dni">DNI</label> <br>
+                    <input type="text" name="dni" id="dni" maxlength="9"> <br>
+
+                    <label for="edad">Edad</label> <br>
+                    <input type="text" name="edad" id="edad" size="2" maxlength="2"> <br>
+
+                    <label for="sexo">Sexo</label><br>
+                    <input type="text">
+                </fieldset>
+               
+                <fieldset id="mejor_pelicula">
+                    <legend>Mejor Película</legend>
+                    <input type="radio" name="pelicula" value="11"> JOKER <br>
+                    <input type="radio" name="pelicula" value="22"> AVENGERS END GAME <br>
+                    <input type="radio" name="pelicula" value="33"> JHON WICK 3 <br>
+                </fieldset>
+                 
+                <fieldset id="grupo_argumento">
+                    <legend> Argumento de tu película favorita</legend>
+                    <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+                </fieldset>
+                <br>
+                <div id="cajabotones">
+                    <input type="reset" value="Borrar Formulario">
+                    <input type="reset" value="Enviar" >
+                </div>
+            </form>
+    
+</body>
+</html>

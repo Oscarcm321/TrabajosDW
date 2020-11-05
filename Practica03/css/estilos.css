@@ -1,0 +1,197 @@
+.grid{
+    background-color: turquoise;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 150px 60px 1fr 200px;
+    grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer";
+}
+
+header  img {
+    width: 100px;
+    border: 1px solid;
+    float: left;
+    margin: 7px 20px;
+    
+
+}
+header h1{
+    margin-top: 50px;
+    line-height: 10px;
+}
+header > a{
+    float: right;
+}
+
+header h2{
+    font: initial;
+    font-size: 25px; 
+}
+
+header{
+    grid-area: my-header;
+}
+
+nav div a{
+    width: 100px;
+    height: 100px;
+    margin:  50px;
+    padding: 20px;
+    line-height: 58px;
+    display: inline;
+    color: white;
+}
+
+nav{
+    grid-area: my-nav;
+    
+}
+section{
+    grid-area: my-section;
+    clear: both;
+    background-color: white;
+
+}
+
+.noticia{
+    text-align: justify;
+    float: left;
+    width: 70%;
+}
+#menui{
+    background-color: black;
+    height: 60px;
+    border: white 1px solid;
+    text-align: left;
+}
+
+section img{
+    width: 200px;
+    float: right;
+    margin: 20px;
+}
+aside{
+    grid-area: my-aside;
+    background-color:rgb(130, 230, 248);
+}
+
+aside > div{
+    background-color: turquoise;
+    width: 230px;
+    height: 150px;
+    margin: 20px 17px;
+}
+
+footer{
+    grid-area: my-footer;
+}
+
+footer p{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer img,.info{
+    float: left;
+    padding: 10px 25px;
+    margin-top: 10px;
+    
+}
+
+#formsesion{
+    border: 1px solid gray;
+    margin: 35px 350px;
+    padding: 10px;
+    background-color: lightblue;
+    color: gray;
+    line-height: 25px;
+}
+#formsesion h1{
+    line-height: 5px;
+}
+#formsesion input[type=submit]{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 7%;
+    margin: 7px;
+    
+}
+
+#formcontactos{
+    line-height: 35px;
+    width: 500px;
+    height: 270px;
+    background-color: cyan;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 25px;
+    float: left;
+}
+
+#formcontactos input[type=text], #formcontactos textarea{
+    float: right;
+    width: 400px;
+    background-color: rgb(106, 42, 207);  
+    border: solid 0.5px gray;
+}
+
+
+#formcontactos input[type=reset],#formcontactos input[type=submit]{
+   background-color:rgb(9, 103, 192);
+   color: white;
+   border: solid 1px gray;
+   width: 100px;
+   height: 30px;
+   border-radius: 10%;
+}
+
+
+#infocontacto{
+    float: left;
+    margin: 50px;
+}
+
+.proyecto{
+    float: left;
+    text-align:center;
+
+}
+
+.proyecto img{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.proyecto a{
+    background-color:rgb(9, 103, 192);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 7%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#perfil, #habilidades, #experiencia, #educacion{
+    color: darkblue;
+    
+}
+
+
+
+
+
+
+
+
+
+

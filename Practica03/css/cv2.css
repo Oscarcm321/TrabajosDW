@@ -1,0 +1,38 @@
+h2{
+    background-color: blue;
+    color: yellow;
+    font-family: broadway;
+}
+
+img{
+    width: 150px;
+}
+
+header {
+   background-color: blue;
+   color: yellow;
+   text-align: center;
+   font:bold;
+   font-size: 20px;
+   font-family: arial black; 
+}
+
+#enlaces,a{
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+
+#caja1{
+    background-color: blue;
+}
+
+div > h1{
+    color: yellow;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
